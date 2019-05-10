@@ -1,0 +1,20 @@
+{
+  "name": "@guillaumejchauveau/friendly-errors-webpack-plugin-config",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "webpack": ">= 2.2.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
