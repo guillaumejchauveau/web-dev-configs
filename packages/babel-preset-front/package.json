@@ -1,6 +1,6 @@
 {
   "name": "@guillaumejchauveau/babel-preset-front",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Personnal Babel preset",
   "main": "index.js",
   "scripts": {
