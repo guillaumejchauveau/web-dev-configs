@@ -19,7 +19,7 @@ const chalk = require('chalk')
 
 module.exports = {
   transformers: {
-    preFormattedErrorsTransformer(exception) {
+    preFormattedErrorsTransformer (exception) {
       const wError = exception.webpackError
 
       const message = {
@@ -74,7 +74,7 @@ module.exports = {
     }
   },
   formatters: {
-    preFormattedErrorsFormater(exceptions, type) {
+    preFormattedErrorsFormatter (exceptions, type) {
       return exceptions.reduce((accumulator, exception) => {
         return accumulator + exception.message
       }, '')

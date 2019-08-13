@@ -1,13 +1,21 @@
 {
   "name": "@guillaumejchauveau/web-dev-configs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Mono-repo of web development related configurations",
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
-  "license": "ISC",
-  "dependencies": {
-    "lerna": "^3.13.4"
-  },
+  "license": "MIT",
   "scripts": {
     "postinstall": "lerna bootstrap"
-  }
+  },
+  "dependencies": {
+    "lerna": "^3.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guillaumejchauveau/web-dev-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumejchauveau/web-dev-configs/issues"
+  },
+  "homepage": "https://github.com/guillaumejchauveau/web-dev-configs"
 }

@@ -1,6 +1,6 @@
 const formatter = require('eslint-formatter-pretty')
 
-function formatMessages(messages, dataMapping) {
+function formatMessages (messages, dataMapping) {
   const messagesByFile = {}
 
   for (const message of messages) {
@@ -51,7 +51,7 @@ function formatMessages(messages, dataMapping) {
 
 module.exports = {
   eslint: formatter,
-  stylelint(messages) {
+  stylelint (messages) {
     return formatMessages(messages, {
       filePath: message => message.source,
       realMessages: message => message.warnings,
@@ -71,7 +71,7 @@ module.exports = {
       ruleId: message => message.rule
     })
   },
-  htmlhint(messages) {
+  htmlhint (messages) {
     return formatMessages(messages, {
       filePath: message => message.filePath,
       realMessages: message => [message],
@@ -91,7 +91,7 @@ module.exports = {
       ruleId: message => message.rule.id
     })
   },
-  pugLint(messages) {
+  pugLint (messages) {
     return formatMessages(messages, {
       filePath: message => message.filename,
       realMessages: message => [message],

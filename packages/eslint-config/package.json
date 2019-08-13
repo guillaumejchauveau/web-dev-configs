@@ -1,7 +1,7 @@
 {
   "name": "@guillaumejchauveau/eslint-config",
-  "version": "1.1.1",
-  "description": "Personnal ESLint config",
+  "version": "1.2.0",
+  "description": "Personal ESLint config",
   "main": "index.js",
   "scripts": {
     "test": "eslint -c index.js --print-config index.js | eslint-config-prettier-check"
@@ -11,25 +11,26 @@
     "eslintconfig"
   ],
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "eslint-config-prettier": "^4.2.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-node": "^9.0.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-promise": "^4.1.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-unicorn": "^8.0.2",
-    "prettier": "^1.17.0"
+    "eslint-plugin-unicorn": "^10.0.0",
+    "prettier": "^1.18.2"
   },
   "peerDependencies": {
-    "eslint": "^5.0.0"
+    "eslint": "^6.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
-  }
+    "eslint": "^6.1.0"
+  },
+  "gitHead": "80083ab0d475a2f9132fa9ea57bb0d9775ad0df9"
 }

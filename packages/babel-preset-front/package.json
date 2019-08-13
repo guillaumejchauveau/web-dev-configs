@@ -1,23 +1,24 @@
 {
   "name": "@guillaumejchauveau/babel-preset-front",
-  "version": "1.0.2",
-  "description": "Personnal Babel preset",
+  "version": "1.1.0",
+  "description": "Personal Babel preset",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.4.4"
+    "@babel/preset-env": "^7.5.5"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4"
-  }
+    "@babel/core": "^7.5.5"
+  },
+  "gitHead": "80083ab0d475a2f9132fa9ea57bb0d9775ad0df9"
 }

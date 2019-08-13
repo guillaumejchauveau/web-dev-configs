@@ -1,17 +1,18 @@
 {
   "name": "@guillaumejchauveau/linting-common-formatter",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Set of formatters for linting providers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
     "eslint-formatter-pretty": "^2.1.1"
-  }
+  },
+  "gitHead": "80083ab0d475a2f9132fa9ea57bb0d9775ad0df9"
 }

@@ -1,7 +1,7 @@
 {
   "name": "@guillaumejchauveau/pug-lint-config-front",
-  "version": "1.0.3",
-  "description": "Personnal pug-lint config",
+  "version": "1.1.0",
+  "description": "Personal pug-lint config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
@@ -11,7 +11,7 @@
     "puglintconfig"
   ],
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
@@ -19,6 +19,7 @@
     "pug-lint": ">= 2.5.0"
   },
   "devDependencies": {
-    "pug-lint": "^2.5.0"
-  }
+    "pug-lint": "^2.6.0"
+  },
+  "gitHead": "80083ab0d475a2f9132fa9ea57bb0d9775ad0df9"
 }

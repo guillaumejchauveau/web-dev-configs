@@ -1,13 +1,13 @@
 {
   "name": "@guillaumejchauveau/node-sass-config",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
@@ -16,5 +16,6 @@
   },
   "devDependencies": {
     "node-sass": "^4.12.0"
-  }
+  },
+  "gitHead": "80083ab0d475a2f9132fa9ea57bb0d9775ad0df9"
 }
