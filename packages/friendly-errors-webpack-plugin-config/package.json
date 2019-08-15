@@ -4,12 +4,17 @@
   "description": "",
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
   "dependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^2.4.2",
+    "@types/friendly-errors-webpack-plugin": "^0.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.2"
   },
   "peerDependencies": {
     "webpack": ">= 2.2.0"

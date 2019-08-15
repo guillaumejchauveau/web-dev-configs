@@ -16,7 +16,7 @@ function formatMessages (messages, dataMapping) {
   }
 
   const results = []
-  for (const filePath in messagesByFile) {
+  for (const filePath of Object.getOwnPropertyNames(messagesByFile)) {
     const fileMessages = messagesByFile[filePath]
     const result = {
       filePath,
