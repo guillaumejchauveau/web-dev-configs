@@ -1,0 +1,22 @@
+{
+  "name": "@guillaumejchauveau/wdb-preset-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "dependencies": {
+    "@guillaumejchauveau/babel-preset-web-app": "^1.2.0",
+    "@guillaumejchauveau/node-sass-config": "^1.1.1",
+    "@guillaumejchauveau/postcss-config": "^1.1.1"
+  },
+  "peerDependencies": {
+    "@guillaumejchauveau/wdb-core": "^5.0.0-alpha.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

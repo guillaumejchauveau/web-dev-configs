@@ -2,18 +2,15 @@
   "name": "@guillaumejchauveau/eslint-config",
   "version": "1.2.1",
   "description": "Personal ESLint config",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint -c index.js --print-config index.js | eslint-config-prettier-check"
-  },
+  "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
+  "license": "MIT",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js --print-config index.js | eslint-config-prettier-check"
   },
   "dependencies": {
     "eslint-config-prettier": "^6.0.0",
@@ -31,6 +28,9 @@
   },
   "devDependencies": {
     "eslint": "^6.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "gitHead": "80083ab0d475a2f9132fa9ea57bb0d9775ad0df9"
 }
