@@ -1,6 +1,6 @@
 {
   "name": "@guillaumejchauveau/babel-preset-web-app",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Personal Babel preset",
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
   "license": "MIT",
