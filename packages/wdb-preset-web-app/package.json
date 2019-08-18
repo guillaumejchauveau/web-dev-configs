@@ -14,7 +14,7 @@
     "@guillaumejchauveau/postcss-config": "^1.1.2"
   },
   "peerDependencies": {
-    "@guillaumejchauveau/wdb-core": "^5.0.0-alpha.2"
+    "@guillaumejchauveau/wdb-core": "^5.0.0-alpha.3"
   },
   "publishConfig": {
     "access": "public"

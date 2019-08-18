@@ -17,6 +17,7 @@ module.exports = {
     }
   },
   paths: {
+    src: '{root}/src',
     output: {
       path: '{root}/build',
       publicPath: './'
@@ -24,17 +25,14 @@ module.exports = {
     files: [
       {
         syntaxes: ['js'],
-        src: '{root}/src/js',
-        output: 'js/[name].js'
+        output: '[name].js'
       },
       {
         syntaxes: ['css', 'scss'],
-        src: '{root}/src/css',
-        output: 'css/[name].css',
+        output: '[name].css',
       },
       {
         syntaxes: ['html', 'pug'],
-        src: '{root}/src',
         output: '[name].html'
       }
     ],
@@ -42,17 +40,9 @@ module.exports = {
       src: '{root}/src/static',
       output: '{root}/build'
     },
-    img: {
-      extensions: ['png', 'jpg', 'gif', 'svg'],
-      src: '{root}/src/img',
-      output: 'img/[path][name].[ext]',
-      publicPath: './',
-      embeddedMaxSize: 5000
-    },
-    font: {
-      extensions: ['woff', 'woff2', 'eot', 'ttf', 'otf'],
-      src: '{root}/src/font',
-      output: 'font/[path][name].[ext]',
+    assets: {
+      extensions: ['png', 'jpg', 'gif', 'svg', 'woff', 'woff2', 'eot', 'ttf', 'otf'],
+      output: '[path][name].[ext]',
       publicPath: './',
       embeddedMaxSize: 5000
     }
