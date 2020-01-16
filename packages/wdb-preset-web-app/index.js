@@ -48,7 +48,6 @@ module.exports = {
     }
   },
   optimize: {
-    minimize: true,
     cssnano: {
       preset: [
         'default',

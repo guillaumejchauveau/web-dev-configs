@@ -3,7 +3,8 @@ module.exports = {
     'plugin:unicorn/recommended',
     'standard',
     'prettier',
-    'prettier/standard'
+    'prettier/standard',
+    'prettier/unicorn'
   ],
   plugins: [
     'unicorn',

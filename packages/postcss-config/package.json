@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\""
   },
   "dependencies": {
-    "autoprefixer": "^9.6.1"
+    "autoprefixer": "^9.7.4"
   },
   "publishConfig": {
     "access": "public"

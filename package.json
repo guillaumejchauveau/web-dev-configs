@@ -8,7 +8,7 @@
     "postinstall": "lerna bootstrap"
   },
   "dependencies": {
-    "lerna": "^3.16.4"
+    "lerna": "^3.20.2"
   },
   "repository": {
     "type": "git",
