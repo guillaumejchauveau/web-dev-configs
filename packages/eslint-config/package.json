@@ -1,6 +1,6 @@
 {
   "name": "@guillaumejchauveau/eslint-config",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Personal ESLint config",
   "author": "Guillaume Chauveau <guillaumejchauveau.ops.gecu@outlook.com>",
   "license": "MIT",
