@@ -17,7 +17,7 @@
     "webpack": ">= 2.2.0"
   },
   "devDependencies": {
-    "webpack": "^4.41.5"
+    "webpack": "^5.75.0"
   },
   "publishConfig": {
     "access": "public"
